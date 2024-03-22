@@ -23,7 +23,7 @@ public class ApiFatecApplication {
 			clienteRepository.save(cliente);
 		};
 	}
-	
+	        
 	public static void main(String[] args) {
 		SpringApplication.run(ApiFatecApplication.class, args);
 	}
